@@ -14,22 +14,22 @@
 # Part 2
 
 5. cd test 
-6. cd 	// should return error 	
-7. history 0 //should execute pwd which is command # 
-8. history -c // verify history cleared with a history command 
+6. cd           (should return error) 	
+7. history 0    (should execute pwd which is command #) 
+8. history -c   (verify history cleared with a history command) 
 9. history
 10. exit 
 
-Now test if only last 100 commands are stored.  
-Execute
-./sish < hist100 
-//should print
-0
-1
-2
-1
-2
-// Dont worry about "sish>"
+Now test if only last 100 commands are stored.  \
+Execute: \
+./sish < hist100 \
+should print \
+0 \
+1 \
+2 \
+1 \
+2 \
+(Dont worry about "sish>") 
 
 # Part 3
 1. ls | wc				
